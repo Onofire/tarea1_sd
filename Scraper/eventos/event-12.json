@@ -1,0 +1,1388 @@
+[
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848000049
+    },
+    "insertId": "......4d1DQikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 67
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.059Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777059
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848000049
+    },
+    "insertId": "......4d1DUikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 68
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.067Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777067
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848000049
+    },
+    "insertId": "......4d1DYikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 69
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.071Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777071
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848000049
+    },
+    "insertId": "......4d1DbikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 70
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.074Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777074
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848000049
+    },
+    "insertId": "......4d1DfikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 71
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.163Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777163
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848999977
+    },
+    "insertId": "......4d1DjikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 72
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.167Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777167
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848999977
+    },
+    "insertId": "......4d1DnikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 73
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.170Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777170
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848999977
+    },
+    "insertId": "......4d1DrikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 74
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:17.210Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032777210
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "LM_MARKER_SHOWN"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "TYPE"
+                    },
+                    "value": {
+                      "stringValue": "t"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "ICON"
+                    },
+                    "value": {
+                      "stringValue": "web"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "SIZE"
+                    },
+                    "value": {
+                      "stringValue": "[32,32]"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": {
+      "seconds": 1746032781,
+      "nanos": 848999977
+    },
+    "insertId": "......4d1DvikvFVxYCDzsCkBpqg5t2U",
+    "jsonPayload": {
+      "fields": {
+        "episode_id": {
+          "stringValue": "1746032763844-b87d2fda-b7f3-45a0-b249-1c742349359f-V"
+        },
+        "sequence_number": {
+          "numberValue": 75
+        },
+        "web_events_instance_id": {
+          "stringValue": "23b5fa77-8bc1-44d7-8ef9-0d87c5034c05"
+        },
+        "analytics_version": {
+          "stringValue": "25.14.3"
+        },
+        "partial": {
+          "boolValue": false
+        },
+        "device": {
+          "structValue": {
+            "fields": {
+              "device_type": {
+                "stringValue": "desktop"
+              },
+              "device_os": {
+                "stringValue": "Linux"
+              },
+              "device_name": {
+                "stringValue": "unknown"
+              },
+              "device_model": {
+                "stringValue": "unknown"
+              },
+              "browser": {
+                "stringValue": "Chrome Headless"
+              },
+              "screen_width": {
+                "numberValue": 800
+              },
+              "screen_height": {
+                "numberValue": 600
+              }
+            }
+          }
+        },
+        "event_date": {
+          "stringValue": "2025-04-30T17:06:18.874Z"
+        },
+        "event_date_ts": {
+          "numberValue": 1746032778874
+        },
+        "timezone": {
+          "stringValue": "UTC"
+        },
+        "tab_hidden": {
+          "boolValue": false
+        },
+        "event_name": {
+          "stringValue": "STILL_HERE"
+        },
+        "language": {
+          "stringValue": "es-419"
+        },
+        "source_app": {
+          "stringValue": "livemap"
+        },
+        "component": {
+          "stringValue": "livemap"
+        },
+        "version": {
+          "stringValue": "sabretooth-local"
+        },
+        "location": {
+          "stringValue": "-33.448890,-70.669265"
+        },
+        "request_status": {
+          "stringValue": "other_bot"
+        },
+        "params_map": {
+          "listValue": {
+            "values": [
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "EXPERIMENTS_JSON"
+                    },
+                    "value": {
+                      "stringValue": "{}"
+                    }
+                  }
+                }
+              },
+              {
+                "structValue": {
+                  "fields": {
+                    "key": {
+                      "stringValue": "LANDING"
+                    },
+                    "value": {
+                      "stringValue": "clean"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "session_id": {
+          "stringValue": "d0FRSVp0NnUxYjFPNHJLRVNJK09uSzJDbFRmM2ROY2JVZCtCTGlyMWdzUjNFTVNRUlQ3b3RNWlFsbzRpOFcwNS0tcDZ4ZUgxS1dSUm53Mk9DK21aTGlvQT09--00a84b9ac5a003d2328c486f7e819c1a2bf06800"
+        },
+        "visitor_id": {
+          "stringValue": "b87d2fda-b7f3-45a0-b249-1c742349359f"
+        }
+      }
+    }
+  }
+]

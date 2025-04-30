@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  scraper:
+    build: ./Scraper
+    depends_on:
+      - mongo
+      - redis
+    volumes:
+      - ./Scraper/eventos:/app/eventos
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/app1db
+      - REDIS_HOST=redis
+    cap_add:
+      - SYS_ADMIN
+    shm_size: 1gb
+
+  api:
+    build: ./API
+    depends_on:
+      - mongo
+      - redis
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/app1db
+      - REDIS_HOST=redis
+
+  mongo:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+volumes:
+  mongodb_data:

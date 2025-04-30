@@ -1,0 +1,10 @@
+{
+  "_request_scope": "web",
+  "_session": null,
+  "feedbackFormGracePeriodDays": 3,
+  "livemap_test": false,
+  "qrcodeFlag": true,
+  "showEventLandingWebviewGeolocationButton": false,
+  "userDriveRouting": false,
+  "web_device_type": "other"
+}
