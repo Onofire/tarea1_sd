@@ -23,6 +23,8 @@ services:
     environment:
       - MONGO_URL=mongodb://mongo:27017/app1db
       - REDIS_HOST=redis
+    volumes:
+      - ./data/metricas:/usr/src/app/metricas
 
   mongo:
     image: mongo:6
@@ -31,10 +33,19 @@ services:
     volumes:
       - mongodb_data:/data/db
 
+
+
+
   redis:
     image: redis:7
     ports:
       - "6379:6379"
-
+    command: [
+      "redis-server",
+      "--maxmemory", "2mb",
+      "--maxmemory-policy", "allkeys-lru",
+      "--save", "",
+      "--appendonly", "no"
+    ]
 volumes:
   mongodb_data:

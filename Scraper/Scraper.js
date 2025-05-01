@@ -2,6 +2,8 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 const { MongoClient } = require("mongodb");
+const isMac = false; // En Docker normalmente es Linux
+const modifierKey = isMac ? 'Meta' : 'Control';
 
 const MONGO_URI = process.env.MONGO_URL || 'mongodb://localhost:27017';
 const DB_NAME = "app1db";
@@ -34,7 +36,7 @@ async function insertarEnMongo(eventos) {
 (async () => {
    const browser = await puppeteer.launch({
       headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
+      args: ['--no-sandbox', '--disable-setuid-sandbox','--disable-dev-shm-usage']
     });
   const page = await browser.newPage();
 
@@ -79,8 +81,8 @@ async function insertarEnMongo(eventos) {
           console.log("📝 Guardado parcial en eventos-waze.json");
 
           // Inserción automática si se llega a 10.000
-          if (eventos.length >= 50) {
-            console.log("📦 10.000 eventos alcanzados. Insertando en MongoDB...");
+          if (eventos.length >= 20) {
+            console.log("📦 20 eventos alcanzados. Insertando en MongoDB...");
             await insertarEnMongo(eventos);
             eventos = []; // Reiniciar acumulador después de insertar
             fs.writeFileSync(FILE_PATH, "[]"); // Limpiar el archivo
@@ -116,6 +118,17 @@ async function insertarEnMongo(eventos) {
     const y = Math.floor(Math.random() * 100) + 100;
     await page.mouse.move(x, y);
     console.log(` Mouse movido a (${x}, ${y})`);
+    const zoomIn = Math.random() < 0.5;
+
+    await page.keyboard.down(modifierKey);
+    if (zoomIn) {
+      await page.keyboard.press('+');
+      
+    } else {
+      await page.keyboard.press('-');
+    
+    }
+    await page.keyboard.up(modifierKey);
   }, 10000); // cada 10 segundos
 
   await new Promise(() => {}); // Mantiene el script activo
